@@ -5,8 +5,8 @@
 
     <item
         android:id="@+id/baselineMenuBottomNav"
-        android:icon="@drawable/baseline_menu"
-        android:title="@string/baseline_menu"
+        android:icon="@drawable/home"
+        android:title="@string/home"
         app:showAsAction="ifRoom"/>
 
     <item
@@ -14,7 +14,6 @@
         android:icon="@drawable/shop"
         android:title="@string/shop"
         app:showAsAction="ifRoom"/>
-
 
     <item
         android:id="@+id/deliveryItemBottomNav"
