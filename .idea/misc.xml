@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/baseline_menu.xml" value="0.1" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/activity_main.xml" value="0.11614583333333334" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_account.xml" value="0.17300724637681159" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_baseline_menu.xml" value="0.17300724637681159" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_delivery.xml" value="0.17300724637681159" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_shop.xml" value="0.17300724637681159" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
