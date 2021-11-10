@@ -59,6 +59,48 @@ class MainActivity : AppCompatActivity() {
 
         }
         binding?.bottomNav?.selectedItemId = R.id.shopItemBottomNav
+
+        setSupportActionBar(binding?.topAppBar)
+        binding?.topAppBar?.setOnMenuItemClickListener { menuItem -> itemSelected(menuItem)}
+    }
+
+    private fun itemSelected(item: MenuItem):Boolean {
+
+        when(item.itemId) {
+
+            R.id.shopItemBottomNav ->  supportFragmentManager.beginTransaction().replace(R.id.content,
+                Shop()
+            ).commit()
+
+            R.id.deliveryItemBottomNav -> supportFragmentManager.beginTransaction().replace(R.id.content,
+                Delivery()
+            ).commit()
+
+            R.id.accountItemBottomNav -> supportFragmentManager.beginTransaction().replace(R.id.content,
+                Account()
+            ).commit()
+        }
+
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        when (item.itemId) {
+
+            android.R.id.home -> {
+
+                val mainMenu = MainMenu()
+                mainMenu.show(
+                    supportFragmentManager,
+                    "main_menu"
+                )
+
+            }
+
+        }
+
+        return true
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
