@@ -62,6 +62,20 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding?.topAppBar)
         binding?.topAppBar?.setOnMenuItemClickListener { menuItem -> itemSelected(menuItem)}
+
+
+
+/*        val details = Details()
+
+        val parameters = Bundle()
+
+        parameters.putString("nameMovie", binding?.nameMovie?.text?.toString())
+        parameters.putString("longMovie", binding?.longMovie?.text?.toString())
+        parameters.putString("actorsMovie", binding?.actorsMovie?.text?.toString())
+
+        details.arguments = parameters
+
+        details.show(supportFragmentManager, "details")*/
     }
 
     private fun itemSelected(item: MenuItem):Boolean {

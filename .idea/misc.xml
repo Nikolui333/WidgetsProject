@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/baseline_menu.xml" value="0.1" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/close.xml" value="0.14635416666666667" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/contacts.xml" value="0.17314814814814813" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/delivery.xml" value="0.1824074074074074" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/folder.xml" value="0.18703703703703703" />
@@ -13,6 +14,7 @@
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/shop.xml" value="0.18703703703703703" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/drawable/video.xml" value="0.17314814814814813" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/activity_main.xml" value="0.11614583333333334" />
+        <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/details.xml" value="0.13020833333333334" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_account.xml" value="0.17300724637681159" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_baseline_menu.xml" value="0.17300724637681159" />
         <entry key="..\:/User/GitHub2/WidgetsProject/app/src/main/res/layout/fragment_delivery.xml" value="0.17300724637681159" />
