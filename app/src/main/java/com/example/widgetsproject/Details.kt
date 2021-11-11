@@ -26,7 +26,7 @@ class Details : BottomSheetDialogFragment(),View.OnClickListener {
         binding?.actorsMovieDetails?.text = arguments?.getString("actorsMovie").toString()
 
         when(binding?.nameMovieDetails?.text) {
-            getString(R.string.badBoys) -> binding?.imageMovieDetails?.setImageResource(R.drawable.baner)
+            getString(R.string.pirates) -> binding?.imageMovieDetails?.setImageResource(R.drawable.baner_pir)
         }
 
         binding?.closePanel?.setOnClickListener(this)
